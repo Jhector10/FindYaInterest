@@ -21,3 +21,12 @@ body{
     padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
+button {
+    background-color: #FFD84F;
+    border: none;
+}
+
+button:hover {
+    background-color: #FFDC7F;
+}
