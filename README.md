@@ -1,6 +1,13 @@
 # FindYaInterest
 
-A web application that allows for people with Stevens to connect and work together by building good habits. The web application has different sections and classes, users can create a new group and chat within the web application too.
+:mag: Find Ya Interest: a study partner finder 
+### Team Members:
+* [Joshua Hector](https://github.com/Jhector10)
+* [Gavin Snyder](https://github.com/Arceus1ooo)
+* [Kristin Kim](https://github.com/krixstin)
+* [Siddharth Godhani](https://github.com/sidgodhani)
+* [Sylvia Boamah](https://github.com/sboamah)
+* [Mohammed Elmzaghi](https://github.com/moeelm)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
