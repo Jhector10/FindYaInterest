@@ -1,0 +1,23 @@
+select{
+    border: 1px solid #aaa;
+  }
+
+    /* TO DO: figure out why css file is not working with HTML of component */
+  .specific-room{
+    display: none;
+  }
+  
+  .course{color: black;}
+  .interest{color: black;}
+
+  .form-control{
+      margin-top: 10px;
+  }
+ 
+body{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}

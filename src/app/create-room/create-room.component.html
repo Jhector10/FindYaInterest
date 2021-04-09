@@ -1,0 +1,36 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<body>
+    <h2>Create Room</h2>
+<form [formGroup] = "createRoomForm" (ngSubmit)="onSubmit()">
+    
+        <select id="room-type" class="form-control" formControlName = "roomType" data-toggle="dropdown" required>
+            <option value="" selected disabled hidden>Room Type</option>
+            <option value="course">Course</option>
+        <option value="interest">Interest</option>
+      </select>
+      <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Room Name" formControlName="roomname" required>
+    </div>
+    <div class="form-group"> 
+      <div class="course specific-room" formGroupName="courseRoom" style="display: none;">
+        <input type="text" class="form-control" placeholder="Professor" formControlName="professor" required>
+        <input type="text"  class="form-control" placeholder="Course Number" formControlName="courseNum" required>
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="interest specific-room" formGroupName="interestRoom" style="display: none;">
+        <input type="text"  class="form-control" placeholder="Interests" formControlName="interests" required>
+       </div>
+    </div>
+    <div class="form-group">
+        <textarea rows="5" cols="33" class="form-control" placeholder="Description" formControlName="description" required>
+        </textarea>
+        </div>
+          <div class="form-group">
+            <input type="text"   class="form-control" placeholder="Max People" formControlName="price" required>
+</div>
+        <button type="submit" class="btn btn-default">Create</button>
+</form></body>
