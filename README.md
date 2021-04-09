@@ -1,5 +1,7 @@
 # FindYaInterest
 
+A web application that allows for people with Stevens to connect and work together by building good habits. The web application has different sections and classes, users can create a new group and chat within the web application too.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
