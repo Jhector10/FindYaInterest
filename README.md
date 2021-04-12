@@ -9,6 +9,8 @@
 * [Sylvia Boamah](https://github.com/sboamah)
 * [Mohammed Elmzaghi](https://github.com/moeelm)
 
+Prototyped in [Figma](https://www.figma.com/file/7HeeRn4bPnhHw6oi65pDeV/CS-545-Project?node-id=51%3A2)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
