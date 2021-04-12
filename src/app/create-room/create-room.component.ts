@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl} from '@angular/forms';
+import { Router } from '@angular/router';
 import 'jquery';
 import * as $ from "jquery";
 
@@ -11,8 +12,8 @@ import * as $ from "jquery";
 
 export class CreateRoomComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(public router: Router){
+  }
   
   createRoomForm = new FormGroup(
     { roomType: new FormControl(['']),

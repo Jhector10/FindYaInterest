@@ -9,13 +9,14 @@ import { ForgotLoginPageComponent } from './forgot-login-page/forgot-login-page.
 import { CreateRoomComponent } from './create-room/create-room.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     CreateAccountComponent,
     LoginPageComponent,
     ForgotLoginPageComponent,
-    CreateRoomComponent
+    CreateRoomComponent,
   ],
   imports: [
     BrowserModule,
