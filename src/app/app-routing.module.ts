@@ -11,6 +11,9 @@ const routes: Routes = [
   { path: 'create-room', component: CreateRoomComponent },
   { path: 'forgot-login-page', component: ForgotLoginPageComponent },
   { path: 'login-page', component: LoginPageComponent },
+  { path: 'login', component: LoginPageComponent },
+  { path: 'register', component: CreateAccountComponent},
+  { path: 'forgot', component: ForgotLoginPageComponent}
 
 ];
 
