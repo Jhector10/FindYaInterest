@@ -16,19 +16,22 @@
 			
 	<a href="create-account.component.html"><button class="btn btn-warning" style="border-color: white; padding-left: 4rem; padding-right: 4rem; color: black; display: block; margin: 0 auto; margin-top: 3rem;">Create Account</button></a>
 </div>
-<!--
+
 <div class="col-sm-6">
 			
-<form>
-	<input type="text" name="username" placeholder="Username"><br><br>
-	<input type="text" name="password" placeholder="Password"><br><br>
-	<input type="submit"><br>
-</form><br>
+<div class="col-sm-6">
+	<span class="label">Username</span> 
+	<input type="text" name="username" placeholder="Username" (keyup)="UserName"><br><br>
+	<span class="label">Password</span>
+	<input type="text" name="password" placeholder="Password" (keyup)="Password"><br><br>
+	
+	<button mat-raised-button (click)="onLogin()">Login</button>
+</div><br>
 
-<a href="forgot.html">Forgot your credentials?</a>
+<a class="nav-link waves-light" mdbWavesEffect routerLink="/create-account" routerLinkActive="active">Forgot your credentials?</a>
 	
 </div>
--->
+
 	</div>
 	
 	</div>

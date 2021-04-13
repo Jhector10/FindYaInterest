@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-create-account',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateAccountComponent implements OnInit {
 
-  constructor() { }
+  Email: string;
+  Password: string;
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  onCreate() { 
+    if (this.Email != '\uf8ff' + '@gmail.com') {
+      alert('Please enter a valid google email address');
+    } if (this.Password.length < 6) {
+      alert('Please enter a Password that is more than 6 characters long');
+    } else {
+      this.router.navigateByUrl('/login');
+    }
+  }
 }

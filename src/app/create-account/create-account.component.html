@@ -10,18 +10,18 @@
 	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<a href="login.html"><button>Login</button></a>
+	<button mat-raised-button type="submit">Login</button>
 	<br><br>
 
-	<a href="createAccount.html"><button>Create Account</button></a>
+	<button mat-raised-button type="submit">Create Account</button>
 	<br><br><br>
 </div>	
 
 <form>
+	<input type="text" name="email" placeholder="E-mail Adress" (keyup)="Email"><br><br>
 	<input type="text" name="username" placeholder="Username"><br><br>
-	<input type="text" name="password" placeholder="Password"><br><br>
-    <input type="text" name="email" placeholder="E-mail Adress "><br><br>
-	<input type="button" value="Create" onclick="" />
+	<input type="text" name="password" placeholder="Password" (keyup)="Password"><br><br>
+	<button mat-raised-button (click)="onCreate()">Create Account</button>
 </form>
 
 </body>
