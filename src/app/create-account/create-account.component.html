@@ -1,28 +1,45 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>FYI</title>
 </head>
-<body>
 
-<div id=header>
+
+<div>
 	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<a href="login.html"><button>Login</button></a>
+	<button mat-raised-button type="submit">Login</button>
 	<br><br>
 
-	<a href="createAccount.html"><button>Create Account</button></a>
+	<button mat-raised-button type="submit">Create Account</button>
 	<br><br><br>
 </div>	
 
-<form>
-	<input type="text" name="username" placeholder="Username"><br><br>
-	<input type="text" name="password" placeholder="Password"><br><br>
-    <input type="text" name="email" placeholder="E-mail Adress "><br><br>
-	<input type="button" value="Create" onclick="" />
-</form>
+<div class="displayTable">
+  <div class="displayTableCell">
 
-</body>
-</html>
+    <div class="authBlock">
+      <h3>Sign Up</h3>
+
+      <div class="formGroup">
+        <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+      </div>
+
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="Password" #userPwd required>
+      </div>
+
+      <div class="formGroup">
+        <input type="button" class="btn btnPrimary" value="Sign Up" (click)="auth.SignUp(userEmail.value, userPwd.value)">
+      </div>
+
+
+
+    <div class="redirectToLogin">
+      <span>Already have an account? <span class="redirect" routerLink="/login-page">Log In</span></span>
+    </div>
+  </div>
+
+</div>
+
