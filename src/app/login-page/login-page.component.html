@@ -1,30 +1,46 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>FYI</title>
 </head>
-<body>
 
-<div id=header>
-	<h1>FYI</h1>
+<div class="container">
+<div class="row">
+  <div class="col-sm-6" style="background-color: #F4F4F4; width: 30rem; height: 70rem; text-align: center; border-radius: 1rem;">
+	<h1 style="font-weight: 600;">FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<a href="login.html"><button>Login</button></a>
-	<br><br>
+	<a class="nav-link waves-light" mdbWavesEffect routerLink="/create-account" routerLinkActive="active"><button class="btn btn-default" style="border-color: white; padding-left: 4rem; padding-right: 4rem; display: block; margin: 0 auto; margin-top: 3rem;">Login</button></a>
+			
+	<a class="nav-link waves-light" mdbWavesEffect routerLink="/create-account" routerLinkActive="active"><button class="btn btn-warning" style="border-color: white; padding-left: 4rem; padding-right: 4rem; color: black; display: block; margin: 0 auto; margin-top: 3rem;">Create Account</button></a>
+  </div>
+</div>
+</div>
 
-	<a href="createAccount.html"><button>Create Account</button></a>
-	<br><br>
+<div class="displayTable">
+  <div class="displayTableCell">
 
-</div>	
-<br>
-<form>
-	<input type="text" name="username" placeholder="Username"><br><br>
-	<input type="text" name="password" placeholder="Password"><br><br>
-	<input type="submit"><br>
-</form><br>
+    <div class="authBlock">
+      <h3>Sign In</h3>
+      <div class="formGroup">
+        <input type="text" class="formControl" placeholder="Username" #userName required>
+      </div>
 
-<a href="forgot.html">Forgot your credentials?</a>
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="Password" #userPassword required>
+      </div>
 
-</body>
-</html>
+      <!-- Calling SignIn Api from AuthService -->
+      <div class="formGroup">
+        <input type="button" class="btn btnPrimary" value="Log in" (click)="auth.SignIn(userName.value, userPassword.value)">
+      </div>
+
+    <div class="redirectToLogin">
+      <span>Don't have an account?<a class="redirect" routerLink="/create-account" routerLinkActive="active"> Sign Up</a></span>
+	  <a class="nav-link waves-light" mdbWavesEffect routerLink="/forgot-login-page" routerLinkActive="active">Forgot your credentials?</a>
+    </div>
+
+	<a class="nav-link waves-light" mdbWavesEffect routerLink="/forgot-login-page" routerLinkActive="active">Forgot your credentials?</a>
+
+  </div>
+</div>

@@ -7,13 +7,11 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
 
 const routes: Routes = [
-
   { path: 'create-account', component: CreateAccountComponent },
   { path: 'create-room', component: CreateRoomComponent },
   { path: 'forgot-login-page', component: ForgotLoginPageComponent },
   { path: 'login-page', component: LoginPageComponent },
   { path: 'account-sidebar', component: AccountSidebarComponent },
-
 ];
 
 @NgModule({
