@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>FYI</title>
 </head>
-<body>
 
-<div id=header>
+
+<div>
 	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
@@ -17,12 +16,30 @@
 	<br><br><br>
 </div>	
 
-<form>
-	<input type="text" name="email" placeholder="E-mail Adress" (keyup)="Email"><br><br>
-	<input type="text" name="username" placeholder="Username"><br><br>
-	<input type="text" name="password" placeholder="Password" (keyup)="Password"><br><br>
-	<button mat-raised-button (click)="onCreate()">Create Account</button>
-</form>
+<div class="displayTable">
+  <div class="displayTableCell">
 
-</body>
-</html>
+    <div class="authBlock">
+      <h3>Sign Up</h3>
+
+      <div class="formGroup">
+        <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+      </div>
+
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="Password" #userPwd required>
+      </div>
+
+      <div class="formGroup">
+        <input type="button" class="btn btnPrimary" value="Sign Up" (click)="auth.SignUp(userEmail.value, userPwd.value)">
+      </div>
+
+
+
+    <div class="redirectToLogin">
+      <span>Already have an account? <span class="redirect" routerLink="/login-page">Log In</span></span>
+    </div>
+  </div>
+
+</div>
+
