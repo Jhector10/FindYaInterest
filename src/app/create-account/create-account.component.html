@@ -37,7 +37,7 @@
       </div>
 
       <div class="formGroup">
-        <input type="button" class="btn btnPrimary" value="Create" (click)="auth.SignUp(userEmail.value, userPwd.value)">
+        <input type="button" class="btn btnPrimary" value="Create" routerLink="/login-page" routerLinkActive="active" (click)="auth.SignUp(userEmail.value, userPwd.value)">
       </div>
 
   </div>
