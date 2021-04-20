@@ -18,6 +18,7 @@ import { CreateRoomComponent } from './create-room/create-room.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
 import { MainDisplayComponent } from './main-display/main-display.component';
+import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MainDisplayComponent } from './main-display/main-display.component';
     CreateRoomComponent,
     AccountSidebarComponent,
     MainDisplayComponent,
+    MoreInterestsComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
