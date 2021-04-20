@@ -6,41 +6,43 @@
 
 <div class="container">
 <div class="row">
-  <div class="col-sm-6" style="background-color: #F4F4F4; width: 30rem; height: 70rem; text-align: center; border-radius: 1rem;">
-	<h1 style="font-weight: 600;"><a href="/">FYI</a></h1>
+	
+	<div class="col-md-6 card">
+	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<a class="nav-link waves-light" mdbWavesEffect routerLink="/create-account" routerLinkActive="active"><button class="btn btn-default" style="border-color: white; padding-left: 4rem; padding-right: 4rem; display: block; margin: 0 auto; margin-top: 3rem;">Login</button></a>
-			
-	<a class="nav-link waves-light" mdbWavesEffect routerLink="/create-account" routerLinkActive="active"><button class="btn btn-warning" style="border-color: white; padding-left: 4rem; padding-right: 4rem; color: black; display: block; margin: 0 auto; margin-top: 3rem;">Create Account</button></a>
-  </div>
-</div>
-</div>
+	<button mat-raised-button type="submit" class="btn" style="background-color: white; width: 167px; height: 48px;" routerLink="/login-page" routerLinkActive="active">Login</button>
+	<br><br>
 
-<div class="displayTable">
-  <div class="displayTableCell">
+	<br><br><br>
+	</div>
+	<div class="col-md-6 mainCreateAccountCard">
 
-    <div class="authBlock">
-      <h3>Sign In</h3>
-      <div class="formGroup">
-        <input type="text" class="formControl" placeholder="Username" #userName required>
+    <div class="">
+      <h3>Login to your FYI Account</h3>
+		<button class="btn" style="background-color: #F4F4F4" routerLink="/create-account" routerLinkActive="active">Don't have an account? Register</button>
+		
+		<div class="formGroup" style="padding-bottom: 1rem;">
+        <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+      </div>
+		
+      <div class="formGroup" style="padding-bottom: 1rem;">
+        <input type="username" class="formControl" placeholder="Username" #userEmail required>
       </div>
 
-      <div class="formGroup">
-        <input type="password" class="formControl" placeholder="Password" #userPassword required>
+      <div class="formGroup" style="padding-bottom: 1rem;">
+        <input type="password" class="formControl" placeholder="Password" #userPwd required>
       </div>
+		
+		<button class="btn" style="background-color: #F4F4F4" routerLink="/forgot-login-page" routerLinkActive="active">Forgot your credentials?</button>
 
-      <!-- Calling SignIn Api from AuthService -->
       <div class="formGroup">
-        <input type="button" class="btn btnPrimary" value="Log in" (click)="auth.SignIn(userName.value, userPassword.value)">
+        <input type="button" class="btn btn-warning" value="Login" (click)="auth.SignIn(userEmail.value, userPwd.value)">
       </div>
-
-    <div class="redirectToLogin">
-      <span>Don't have an account?<a class="redirect" routerLink="/create-account" routerLinkActive="active"> Sign Up</a></span>
-	  <a class="nav-link waves-light" mdbWavesEffect routerLink="/forgot-login-page" routerLinkActive="active">Forgot your credentials?</a>
-    </div>
-
-	<a class="nav-link waves-light" mdbWavesEffect routerLink="/forgot-login-page" routerLinkActive="active">Forgot your credentials?</a>
 
   </div>
+
+</div>
+</div>
+	
 </div>
