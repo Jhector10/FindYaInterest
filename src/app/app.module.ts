@@ -17,6 +17,7 @@ import { ForgotLoginPageComponent } from './forgot-login-page/forgot-login-page.
 import { CreateRoomComponent } from './create-room/create-room.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
+import { MainDisplayComponent } from './main-display/main-display.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AccountSidebarComponent } from './account-sidebar/account-sidebar.compo
     ForgotLoginPageComponent,
     CreateRoomComponent,
     AccountSidebarComponent,
+    MainDisplayComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({

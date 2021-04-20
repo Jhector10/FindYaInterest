@@ -5,6 +5,7 @@ import { CreateRoomComponent } from './create-room/create-room.component';
 import { ForgotLoginPageComponent } from './forgot-login-page/forgot-login-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
+import { MainDisplayComponent } from './main-display/main-display.component';
 
 const routes: Routes = [
   { path: 'create-account', component: CreateAccountComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'forgot-login-page', component: ForgotLoginPageComponent },
   { path: 'login-page', component: LoginPageComponent },
   { path: 'account-sidebar', component: AccountSidebarComponent },
+  { path: '', component: MainDisplayComponent}
 ];
 
 @NgModule({
