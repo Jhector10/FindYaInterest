@@ -44,3 +44,40 @@ body {
     font-size: 17px;
     font-weight: normal;
 }
+
+.cards{
+    text-align:center;
+    
+}
+
+.interest-card{
+    width: 155px;
+    height: 98px;
+    text-align: center;
+    background-color: #FFF8E0;
+    padding-block: 3%;
+    border-radius: 10px;
+    margin-right: 30px;
+
+    display: inline-block;
+}
+
+.interest-card .room-name{
+    font-size: 20px;
+}
+
+.course-card{
+    width: 180px;
+    height: 160px;
+    text-align: center;
+    background-color: #FFF8E0;
+    padding-block: 6%;
+    border-radius: 10px;
+    margin-right: 30px;
+
+    display: inline-block;
+}
+
+.course-card .room-name{
+    font-size: 32px;
+}
