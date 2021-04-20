@@ -1,0 +1,54 @@
+.card{
+    width: 300px;
+    height: 750px;
+    text-align: center;
+/*    position: fixed;*/
+    margin-left: 50px;
+    padding: 80px 32px;
+    background-color: #f4f4f4;
+    align-items: center;
+    border-radius: 15px;
+	margin-top: 1rem;
+}
+
+.mainCreateAccountCard{
+	width: 500px;
+    height: 750px;
+    text-align: center;
+/*    position: fixed;*/
+    margin-left: 81px;
+    padding: 80px 32px;
+    background-color: #f4f4f4;
+/*    align-items: center;*/
+    border-radius: 15px;
+	margin-top: 1rem;
+}
+
+a{
+    color: #000;
+}
+
+.btn {
+    width: 235px;
+    padding: 15px 0px;
+    background-color: #FFD84F;
+    border-radius: 0px;
+    border: none;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h5{
+    width: 235px;
+    padding: 15px 0px;
+    background-color: #FFF;  
+    margin-bottom: 17px;
+}
+
+img{
+    width: 235px;
+    height: 235px;  
+    object-fit: contain;
+}

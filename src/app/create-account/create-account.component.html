@@ -5,41 +5,45 @@
 </head>
 
 
-<div>
+<div class="container">
+
+<div class="row">
+	<div class="col-md-6 card">
 	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<button mat-raised-button type="submit">Login</button>
+	<button mat-raised-button type="submit" class="btn " routerLink="/login-page" routerLinkActive="active" style="background-color: white">Login</button>
 	<br><br>
 
-	<button mat-raised-button type="submit">Create Account</button>
 	<br><br><br>
-</div>	
+	</div>
+	
+	<div class="col-md-6 mainCreateAccountCard">
 
-<div class="displayTable">
-  <div class="displayTableCell">
-
-    <div class="authBlock">
-      <h3>Sign Up</h3>
-
-      <div class="formGroup">
+    <div class="">
+      <h3>Create your FYI account</h3>
+		<button class="btn" style="background-color: #F4F4F4" routerLink="/login-page" routerLinkActive="active">Already have an account? Login</button>
+		
+		<div class="formGroup" style="padding-bottom: 1rem;">
         <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
       </div>
+		
+      <div class="formGroup" style="padding-bottom: 1rem;">
+        <input type="username" class="formControl" placeholder="Username" #userEmail required>
+      </div>
 
-      <div class="formGroup">
+      <div class="formGroup" style="padding-bottom: 1rem;">
         <input type="password" class="formControl" placeholder="Password" #userPwd required>
       </div>
 
       <div class="formGroup">
-        <input type="button" class="btn btnPrimary" value="Sign Up" (click)="auth.SignUp(userEmail.value, userPwd.value)">
+        <input type="button" class="btn btnPrimary" value="Create" (click)="auth.SignUp(userEmail.value, userPwd.value)">
       </div>
 
-
-
-    <div class="redirectToLogin">
-      <span>Already have an account? <span class="redirect" routerLink="/login-page">Log In</span></span>
-    </div>
   </div>
 
 </div>
+</div>	
+
+  
 

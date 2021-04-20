@@ -5,22 +5,25 @@
 </head>
 
 
-<div>
+<div class="container">
+	<div class="row">
+	
+	<div class="col-md-6 card">
 	<h1>FYI</h1>
 	<h4>Find Ya Interest</h4>
 
-	<a href="login.html"><button>Login</button></a>
+	<button mat-raised-button type="submit" class="btn " routerLink="/login-page" routerLinkActive="active" style="background-color: white">Login</button>
+		
+	<button mat-raised-button type="submit" class="btn" routerLink="/create-account" routerLinkActive="active" style="margin-top: 1rem;">Create Account</button>
 	<br><br>
 
-	<a href="createAccount.html"><button>Create Account</button></a>
-	<br><br>
-
-</div>	
-<br>
-
-<div class="displayTable">
-  <div class="displayTableCell">
-    <div class="authBlock">
+	<br><br><br>
+		
+		
+	</div>
+		
+	<div class="col-md-6 mainCreateAccountCard">
+		 <div class="authBlock">
       <h3>Reset Password</h3>
 
       <p class="text-center">Please enter your email address to request a password reset.</p>
@@ -31,14 +34,17 @@
 
       <!-- Calling ForgotPassword from AuthService Api -->
       <div class="formGroup">
-        <input type="submit" class="btn btnPrimary" value="Reset Password" (click)="auth.ForgotPassword(passwordResetEmail.value)">
+        <input type="submit" style="margin-top: 1rem;" class="btn" value="Reset Password" (click)="auth.ForgotPassword(passwordResetEmail.value)">
       </div>
     </div>
+		
+		<button class="btn" style="background-color: #F4F4F4" routerLink="/login-page" routerLinkActive="active">Go back to Log In</button>
+		
+		</div>
 
-    <div class="redirectToLogin">
-      <span>Go back to ? <span class="redirect" routerLink="/login-page">Log In</span></span>
-    </div>
+	</div>
 
-  </div>
-</div>
+</div>	
+<br>
+
 

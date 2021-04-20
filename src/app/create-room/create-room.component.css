@@ -15,11 +15,37 @@ select{
   }
  
 body{
-    width: 500px;
+/*    width: 500px;*/
     margin: 0 auto;
-    background-color: #f8f8f8;
+    background-color: #F4F4F4;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    width: 300px;
+    height: 750px;
+    text-align: center;
+/*    position: fixed;*/
+    margin-left: 50px;
+    padding: 80px 32px;
+    background-color: #f4f4f4;
+    align-items: center;
+    border-radius: 15px;
+	margin-top: 1rem;
+}
+
+.mainCreateAccountCard{
+	width: 600px;
+    height: 750px;
+    text-align: center;
+/*    position: fixed;*/
+    margin-left: 81px;
+    padding: 80px 32px;
+    background-color: #f4f4f4;
+/*    align-items: center;*/
+    border-radius: 15px;
+	margin-top: 1rem;
 }
 
 button {
