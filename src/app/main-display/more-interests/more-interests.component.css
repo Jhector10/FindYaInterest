@@ -3,12 +3,6 @@ body {
     /* text-align: center; */
     position: fixed;
     margin-left: 488px;
-
-    /* align-items: center; */
-    /* border-color: black;
-    border-radius: 15px;
-    border-width: 3px; */
-
 }
 
 .btn {
@@ -35,12 +29,15 @@ body {
     border-radius: 5px;
     font-weight: bolder;
 }
+
 .title, .more{
     display:inline-table;
 }
+
 .more{
     width:45px ;
 }
+
 .btn-default{
     width: 60px;
     font-size: 17px;
@@ -68,7 +65,6 @@ body {
 .interest-card .room-name{
     font-size: 20px;
 }
-
 
 .interest-card:hover{
     background-color:#faedc1;
