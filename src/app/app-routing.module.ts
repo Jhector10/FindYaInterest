@@ -7,6 +7,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
 import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
+import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
 
 const routes: Routes = [
   { path: 'create-account', component: CreateAccountComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'login-page', component: LoginPageComponent },
   { path: 'account-sidebar', component: AccountSidebarComponent },
   { path: '', component: MainDisplayComponent},
-  {path: 'more-interests', component: MoreInterestsComponent}
+  {path: 'more-interests', component: MoreInterestsComponent},
+  {path: 'more-courses', component: MoreCoursesComponent}
 ];
 
 @NgModule({
