@@ -21,6 +21,7 @@ import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
 import { MA227Component } from './message-board/MA227/MA227.component';
+import { E344Component } from './message-board/E344/E344.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { MA227Component } from './message-board/MA227/MA227.component';
     MoreInterestsComponent,
     MoreCoursesComponent,
     MA227Component,
+    E344Component,
   ],
   imports: [
     AngularFireModule.initializeApp({
