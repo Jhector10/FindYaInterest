@@ -15,6 +15,7 @@ import { E234Component } from './message-board/E234/E234.component';
 import { CS115Component } from './message-board/CS115/CS115.component';
 import { HSS200Component } from './message-board/HSS200/HSS200.component';
 import { CS546Component } from './message-board/CS546/CS546.component';
+import { EM578Component } from './message-board/EM578/EM578.component';
 
 const routes: Routes = [
   {path: 'create-account', component: CreateAccountComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path: 'message-boards/CS115', component: CS115Component},
   {path: 'message-boards/HSS200', component: HSS200Component},
   {path: 'message-boards/CS546', component: CS546Component},
+  {path: 'message-boards/EM578', component: EM578Component},
 ];
 
 @NgModule({
