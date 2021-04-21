@@ -32,6 +32,14 @@ body {
     border-radius: 15px;
 }
 
+.courses{
+    width: 950px;
+}
+
+.interests{
+    width: 950px;
+}
+
 .btn {
     width: 167px;
     height: 48px;
