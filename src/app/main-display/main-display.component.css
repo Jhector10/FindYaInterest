@@ -6,7 +6,9 @@ body {
     margin-left: 488px;
 }
 */
-
+a{
+    color: inherit
+}
 .card{
     width: 300px;
     height: 750px;

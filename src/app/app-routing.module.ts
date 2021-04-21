@@ -8,16 +8,18 @@ import { AccountSidebarComponent } from './account-sidebar/account-sidebar.compo
 import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
+import { MA227Component } from './message-board/MA227/MA227.component';
 
 const routes: Routes = [
-  { path: 'create-account', component: CreateAccountComponent },
-  { path: 'create-room', component: CreateRoomComponent },
-  { path: 'forgot-login-page', component: ForgotLoginPageComponent },
-  { path: 'login-page', component: LoginPageComponent },
-  { path: 'account-sidebar', component: AccountSidebarComponent },
-  { path: '', component: MainDisplayComponent},
+  {path: 'create-account', component: CreateAccountComponent},
+  {path: 'create-room', component: CreateRoomComponent},
+  {path: 'forgot-login-page', component: ForgotLoginPageComponent},
+  {path: 'login-page', component: LoginPageComponent},
+  {path: 'account-sidebar', component: AccountSidebarComponent},
+  {path: '', component: MainDisplayComponent},
   {path: 'more-interests', component: MoreInterestsComponent},
-  {path: 'more-courses', component: MoreCoursesComponent}
+  {path: 'more-courses', component: MoreCoursesComponent},
+  {path: 'message-boards/MA227', component: MA227Component},
 ];
 
 @NgModule({
