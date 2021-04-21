@@ -9,6 +9,7 @@ import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
+import { MA227Component } from './chat-room/MA227/MA227.component';
 
 const routes: Routes = [
   { path: 'create-account', component: CreateAccountComponent },
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: '', component: MainDisplayComponent},
   {path: 'more-interests', component: MoreInterestsComponent},
   {path: 'more-courses', component: MoreCoursesComponent},
-  {path: 'chat-room', component: ChatRoomComponent}
+  {path: 'chat-room', component: ChatRoomComponent},
+  {path: 'chat-room/MA227', component: MA227Component},
 ];
 
 @NgModule({
