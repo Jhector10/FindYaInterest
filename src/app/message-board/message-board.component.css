@@ -5,23 +5,19 @@ body {
   }
   
   .container {
-    border: 2px solid #dedede;
-    background-color: #f1f1f1;
+    box-shadow: 1px 1px 2px#999;
+    background-color: #ffe799;
     border-radius: 5px;
+    width: 700px;
     padding: 10px;
-    margin: 10px 0;
+    margin: 20px 0;
   }
   
   .darker {
-    border-color: #ccc;
-    background-color: #ddd;
+    box-shadow: 1px 1px 2px#999;
+    background-color: #fed2ff;
   }
-  
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
   
   .container img {
     float: left;
@@ -39,10 +35,10 @@ body {
   
   .time-right {
     float: right;
-    color: #aaa;
+    color: rgb(111, 119, 0);
   }
   
   .time-left {
     float: left;
-    color: #999;
+    color: rgb(78, 0, 72);
   }
