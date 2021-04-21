@@ -21,12 +21,13 @@ body {
   
   .container img {
     float: left;
-    max-width: 60px;
-    width: 100%;
     margin-right: 20px;
     border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
   }
-  
+
   .container img.right {
     float: right;
     margin-left: 20px;
@@ -44,7 +45,11 @@ body {
   }
   .right{
     content: url('https://i.pinimg.com/236x/a9/ef/fa/a9effa4e2bad2e03bb8dbdf9405a94d1.jpg');
+  
   }
+
+  
+
   .left{
     content: url('https://img.wattpad.com/cover/61392930-288-k852540.jpg');
   }
