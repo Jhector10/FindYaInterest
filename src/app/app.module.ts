@@ -20,7 +20,6 @@ import { AccountSidebarComponent } from './account-sidebar/account-sidebar.compo
 import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
-import { ChatRoomComponent } from './chat-room/chat-room.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { ChatRoomComponent } from './chat-room/chat-room.component';
     MainDisplayComponent,
     MoreInterestsComponent,
     MoreCoursesComponent,
-    ChatRoomComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
