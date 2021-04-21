@@ -34,6 +34,14 @@ a{
     border-radius: 15px;
 }
 
+.courses{
+    width: 950px;
+}
+
+.interests{
+    width: 950px;
+}
+
 .btn {
     width: 167px;
     height: 48px;
@@ -72,19 +80,17 @@ a{
 
 .cards{
     text-align:center;
-    
 }
 
 .course-card{
     width: 180px;
-    height: 160px;
+    height: 180px;
     text-align: center;
     background-color: #FFF8E0;
-    padding-block: 6%;
+    padding-block: 2%;
     border-radius: 10px;
     margin-right: 30px;
-    margin-bottom: 30px;
-
+	margin-bottom: 3rem;
     display: inline-block;
 }
 
@@ -95,4 +101,28 @@ a{
 .course-card:hover{
     background-color:#faedc1;
     cursor: pointer;
+}
+
+.logolink{
+    text-decoration: none;
+    color: inherit;   
+    transition: transform .2s;
+}
+
+.contact{
+    /* background-color:ivory; */
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.contact :hover{
+    background-color: ivory;
+    transform: scale(1.5);
+}
+
+.chat{
+    text-decoration: none;
+    color: inherit;
+    color:rgb(32, 123, 243);
+    font-weight: bold;
 }
