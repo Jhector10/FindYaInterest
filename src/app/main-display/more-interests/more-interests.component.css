@@ -32,14 +32,6 @@ body {
     border-radius: 15px;
 }
 
-.courses{
-    width: 950px;
-}
-
-.interests{
-    width: 950px;
-}
-
 .btn {
     width: 167px;
     height: 48px;
@@ -62,7 +54,7 @@ body {
     height: 55px; 
     margin-right: 30px;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .title, .more{
@@ -80,65 +72,28 @@ body {
 }
 
 .cards{
-    text-align:center; 
+    text-align:center;
+    
 }
 
 .interest-card{
-    width: 180px;
-    height: 180px;
+    width: 155px;
+    height: 98px;
     text-align: center;
     background-color: #FFF8E0;
     padding-block: 4%;
     border-radius: 10px;
     margin-right: 30px;
-	margin-bottom: 3rem;
+    margin-bottom: 30px;
+
     display: inline-block;
-    
 }
 
 .interest-card .room-name{
     font-size: 20px;
-    font-weight: bold;
-   
-}
-.interest-card p{
-    font-size: 12px;
 }
 
-.course-card{
-    width: 180px;
-    height: 160px;
-    text-align: center;
-    background-color: #FFF8E0;
-    padding-block: 6%;
-    border-radius: 10px;
-    margin-right: 30px;
-	margin-bottom: 3rem;
-    display: inline-block;
-}
-
-.course-card .room-name{
-    font-size: 32px;
-}
-
-.course-card:hover, .interest-card:hover{
+.interest-card:hover{
     background-color:#faedc1;
     cursor: pointer;
-}
-
-.logolink{
-    text-decoration: none;
-    color: inherit;   transition: transform .2s;
-
-}
-
-.contact{
-    /* background-color:ivory; */
-    display: inline-block;
-    transition: transform .2s;
-}
-
-.contact :hover{
-    background-color: ivory;
-    transform: scale(1.5);
 }
