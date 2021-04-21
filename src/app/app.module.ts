@@ -25,6 +25,7 @@ import { E344Component } from './message-board/E344/E344.component';
 import { CS545Component } from './message-board/CS545/CS545.component';
 import { E234Component } from './message-board/E234/E234.component';
 import { CS115Component } from './message-board/CS115/CS115.component';
+import { HSS200Component } from './message-board/HSS200/HSS200.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { CS115Component } from './message-board/CS115/CS115.component';
     CS545Component,
     E234Component,
     CS115Component,
+    HSS200Component,
   ],
   imports: [
     AngularFireModule.initializeApp({
