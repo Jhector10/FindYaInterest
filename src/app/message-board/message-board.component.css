@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .container {
+    box-shadow: 1px 1px 2px#999;
+    background-color: #ffe799;
+    border-radius: 5px;
+    width: 700px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .darker {
+    box-shadow: 1px 1px 2px#999;
+    background-color: #fed2ff;
+  }
+
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: rgb(111, 119, 0);
+  }
+  
+  .time-left {
+    float: left;
+    color: rgb(78, 0, 72);
+  }
+  .right{
+    content: url('https://i.pinimg.com/236x/a9/ef/fa/a9effa4e2bad2e03bb8dbdf9405a94d1.jpg');
+  
+  }
+  .left{
+    content: url('https://img.wattpad.com/cover/61392930-288-k852540.jpg');
+  }

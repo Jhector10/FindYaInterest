@@ -20,6 +20,14 @@ import { AccountSidebarComponent } from './account-sidebar/account-sidebar.compo
 import { MainDisplayComponent } from './main-display/main-display.component';
 import { MoreInterestsComponent } from './main-display/more-interests/more-interests.component';
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
+import { MA227Component } from './message-board/MA227/MA227.component';
+import { E344Component } from './message-board/E344/E344.component';
+import { CS545Component } from './message-board/CS545/CS545.component';
+import { E234Component } from './message-board/E234/E234.component';
+import { CS115Component } from './message-board/CS115/CS115.component';
+import { HSS200Component } from './message-board/HSS200/HSS200.component';
+import { CS546Component } from './message-board/CS546/CS546.component';
+import { EM578Component } from './message-board/EM578/EM578.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +40,14 @@ import { MoreCoursesComponent } from './main-display/more-courses/more-courses.c
     MainDisplayComponent,
     MoreInterestsComponent,
     MoreCoursesComponent,
+    MA227Component,
+    E344Component,
+    CS545Component,
+    E234Component,
+    CS115Component,
+    HSS200Component,
+    CS546Component,
+    EM578Component,
   ],
   imports: [
     AngularFireModule.initializeApp({
