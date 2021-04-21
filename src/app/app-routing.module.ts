@@ -12,6 +12,7 @@ import { MA227Component } from './message-board/MA227/MA227.component';
 import { E344Component } from './message-board/E344/E344.component';
 import { CS545Component } from './message-board/CS545/CS545.component';
 import { E234Component } from './message-board/E234/E234.component';
+import { CS115Component } from './message-board/CS115/CS115.component';
 
 const routes: Routes = [
   {path: 'create-account', component: CreateAccountComponent},
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'message-boards/E344', component: E344Component},
   {path: 'message-boards/CS545', component: CS545Component},
   {path: 'message-boards/E234', component: E234Component},
+  {path: 'message-boards/CS115', component: CS115Component},
 ];
 
 @NgModule({
