@@ -84,7 +84,7 @@ body {
 
 .interest-card{
     width: 180px;
-    height: 98px;
+    height: 180px;
     text-align: center;
     background-color: #FFF8E0;
     padding-block: 4%;
@@ -92,10 +92,15 @@ body {
     margin-right: 30px;
 	margin-bottom: 3rem;
     display: inline-block;
+    
 }
 
 .interest-card .room-name{
     font-size: 20px;
+   
+}
+.interest-card p{
+    font-size: 12px;
 }
 
 .course-card{
@@ -117,4 +122,21 @@ body {
 .course-card:hover, .interest-card:hover{
     background-color:#faedc1;
     cursor: pointer;
+}
+
+.logolink{
+    text-decoration: none;
+    color: inherit;   transition: transform .2s;
+
+}
+
+.contact{
+    /* background-color:ivory; */
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.contact :hover{
+    background-color: ivory;
+    transform: scale(1.5);
 }
