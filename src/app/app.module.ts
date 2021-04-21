@@ -22,6 +22,8 @@ import { MoreInterestsComponent } from './main-display/more-interests/more-inter
 import { MoreCoursesComponent } from './main-display/more-courses/more-courses.component';
 import { MA227Component } from './message-board/MA227/MA227.component';
 import { E344Component } from './message-board/E344/E344.component';
+import { CS545Component } from './message-board/CS545/CS545.component';
+import { E234Component } from './message-board/E234/E234.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { E344Component } from './message-board/E344/E344.component';
     MoreCoursesComponent,
     MA227Component,
     E344Component,
+    CS545Component,
+    E234Component,
   ],
   imports: [
     AngularFireModule.initializeApp({
