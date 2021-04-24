@@ -30,6 +30,7 @@ import { CS546Component } from './message-board/CS546/CS546.component';
 import { EM578Component } from './message-board/EM578/EM578.component';
 import { MCATComponent } from './message-board/MCAT/MCAT.component';
 import { CFAComponent } from './message-board/CFA/CFA.component';
+import { PaintComponent } from './message-board/Paint/Paint.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { CFAComponent } from './message-board/CFA/CFA.component';
     EM578Component,
     MCATComponent,
     CFAComponent,
+    PaintComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
