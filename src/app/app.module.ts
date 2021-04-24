@@ -28,6 +28,8 @@ import { CS115Component } from './message-board/CS115/CS115.component';
 import { HSS200Component } from './message-board/HSS200/HSS200.component';
 import { CS546Component } from './message-board/CS546/CS546.component';
 import { EM578Component } from './message-board/EM578/EM578.component';
+import { MCATComponent } from './message-board/MCAT/MCAT.component';
+import { CFAComponent } from './message-board/CFA/CFA.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { EM578Component } from './message-board/EM578/EM578.component';
     HSS200Component,
     CS546Component,
     EM578Component,
+    MCATComponent,
+    CFAComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
