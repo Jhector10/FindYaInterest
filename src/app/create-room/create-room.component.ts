@@ -52,6 +52,9 @@ export class CreateRoomComponent implements OnInit {
 
   submitted = false;
 
-  onSubmit() { this.submitted = true;}
+  onSubmit() { 
+    var inputValue = (<HTMLInputElement>document.getElementById('extra')).style.display;
+    inputValue = 'block';
+    this.submitted = true;}
 
 }

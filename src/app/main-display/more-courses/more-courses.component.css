@@ -103,6 +103,10 @@ a{
     cursor: pointer;
 }
 
+#extra{
+    display: none;
+}
+
 .logolink{
     text-decoration: none;
     color: inherit;   
