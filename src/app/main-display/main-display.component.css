@@ -7,7 +7,7 @@ body {
 }
 */
 a{
-    color: inherit
+    color: inherit;
 }
 .card{
     width: 300px;
@@ -44,7 +44,7 @@ a{
 
 .btn {
     width: 167px;
-    height: 48px;
+    height: auto;
     padding: 14px 0px;
     background-color: #FFD84F;
     border-radius: 5px;
@@ -71,7 +71,8 @@ a{
 }
 
 .more{
-    width:45px ;
+    width:45px;
+    height: auto;
 }
 
 .btn-default{
@@ -80,8 +81,15 @@ a{
     font-weight: normal;
 }
 
+.btn-default:hover{
+    background-color: #e7aa00;
+    color: #fff;
+}
+
 .cards{
     text-align:center; 
+    margin: 0 auto;
+    margin-left: -170px;
 }
 
 .interest-card{
@@ -91,8 +99,7 @@ a{
     background-color: #FFF8E0;
     padding-block: 4%;
     border-radius: 10px;
-    margin-right: 30px;
-	margin-bottom: 3rem;
+    margin: 10px;
     display: inline-block;
 }
 
@@ -112,8 +119,7 @@ a{
     background-color: #FFF8E0;
     padding-block: 2%;
     border-radius: 10px;
-    margin-right: 30px;
-	margin-bottom: 3rem;
+    margin:10px;
     display: inline-block;
 }
 
@@ -148,4 +154,7 @@ a{
     color: inherit;
     color:rgb(32, 123, 243);
     font-weight: bold;
+}
+h1{
+    font-size: 80px;
 }

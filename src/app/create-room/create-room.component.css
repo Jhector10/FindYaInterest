@@ -13,7 +13,9 @@ select{
   .form-control{
       margin-top: 10px;
   }
- 
+ a{
+     color: black;
+ }
 body{
 /*    width: 500px;*/
     margin: 0 auto;
@@ -56,4 +58,8 @@ button {
 button:hover {
     background-color: #FFDC7F;
     box-shadow: 0px 0px 2px #aaa;
+}
+
+h1 {
+    font-size: 80px;
 }
