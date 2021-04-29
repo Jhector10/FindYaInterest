@@ -12,4 +12,10 @@ export class MoreCoursesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  logoPress(link)
+  {
+    location.href = link;
+    //alert(); <-- this line prevents an href to the message board
+  }
+
 }
