@@ -31,6 +31,7 @@ import { EM578Component } from './message-board/EM578/EM578.component';
 import { MCATComponent } from './message-board/MCAT/MCAT.component';
 import { CFAComponent } from './message-board/CFA/CFA.component';
 import { PaintComponent } from './message-board/Paint/Paint.component';
+import { CookingComponent } from './message-board/Cooking/Cooking.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { PaintComponent } from './message-board/Paint/Paint.component';
     MCATComponent,
     CFAComponent,
     PaintComponent,
+    CookingComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
