@@ -20,6 +20,7 @@ import { MCATComponent } from './message-board/MCAT/MCAT.component';
 import { CFAComponent } from './message-board/CFA/CFA.component';
 import { PaintComponent } from './message-board/Paint/Paint.component';
 import { CookingComponent } from './message-board/Cooking/Cooking.component';
+import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
 
 const routes: Routes = [
   {path: 'create-account', component: CreateAccountComponent},
@@ -42,6 +43,7 @@ const routes: Routes = [
   {path: 'message-boards/CFA', component: CFAComponent},
   {path: 'message-boards/Paint', component: PaintComponent},
   {path: 'message-boards/Cooking', component: CookingComponent},
+  {path: 'message-boards/SWE-Interview', component: SWEInterviewComponent},
 ];
 
 @NgModule({
