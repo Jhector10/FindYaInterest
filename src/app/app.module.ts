@@ -33,6 +33,7 @@ import { CFAComponent } from './message-board/CFA/CFA.component';
 import { PaintComponent } from './message-board/Paint/Paint.component';
 import { CookingComponent } from './message-board/Cooking/Cooking.component';
 import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
+import { ReadingComponent } from './message-board/Reading/Reading.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Intervi
     PaintComponent,
     CookingComponent,
     SWEInterviewComponent,
+    ReadingComponent,
   ],
   imports: [
     AngularFireModule.initializeApp({
