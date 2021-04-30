@@ -34,6 +34,7 @@ import { PaintComponent } from './message-board/Paint/Paint.component';
 import { CookingComponent } from './message-board/Cooking/Cooking.component';
 import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
 import { ReadingComponent } from './message-board/Reading/Reading.component';
+import { GamingComponent } from './message-board/Gaming/Gaming.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { ReadingComponent } from './message-board/Reading/Reading.component';
     CookingComponent,
     SWEInterviewComponent,
     ReadingComponent,
+    GamingComponent
   ],
   imports: [
     AngularFireModule.initializeApp({

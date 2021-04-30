@@ -22,6 +22,7 @@ import { PaintComponent } from './message-board/Paint/Paint.component';
 import { CookingComponent } from './message-board/Cooking/Cooking.component';
 import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
 import { ReadingComponent } from './message-board/Reading/Reading.component';
+import { GamingComponent } from './message-board/Gaming/Gaming.component';
 
 const routes: Routes = [
   {path: 'create-account', component: CreateAccountComponent},
@@ -45,7 +46,8 @@ const routes: Routes = [
   {path: 'message-boards/Paint', component: PaintComponent},
   {path: 'message-boards/Cooking', component: CookingComponent},
   {path: 'message-boards/SWE-Interview', component: SWEInterviewComponent},
-  {path: 'message-boards/Reading', component: ReadingComponent}
+  {path: 'message-boards/Reading', component: ReadingComponent},
+  {path: 'message-boards/Gaming', component: GamingComponent}
 ];
 
 @NgModule({
