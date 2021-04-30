@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { FormGroup, FormControl} from '@angular/forms';
 import { Router } from '@angular/router';
 import 'jquery';
@@ -7,7 +7,8 @@ import * as $ from "jquery";
 @Component({
   selector: 'app-create-room',
   templateUrl: './create-room.component.html',
-  styleUrls: ['./create-room.component.css']
+  styleUrls: ['./create-room.component.css', '../main-display/more-courses/more-courses.component.css'], 
+  encapsulation: ViewEncapsulation.None, 
 })
 
 export class CreateRoomComponent implements OnInit {
@@ -19,7 +20,7 @@ export class CreateRoomComponent implements OnInit {
     { roomType: new FormControl(['']),
       roomName: new FormControl(''),
       description: new FormControl(''),
-      maxCap: new FormControl(''),
+      url: new FormControl(''),
     //Separate FormGroups for specific room types
     courseRoom: new FormGroup ({ //Course room group
       professor: new FormControl(''),
@@ -53,8 +54,8 @@ export class CreateRoomComponent implements OnInit {
   submitted = false;
 
   onSubmit() { 
-    var inputValue = (<HTMLInputElement>document.getElementById('extra')).style.display;
-    inputValue = 'block';
+    document.getElementById('extra').style.display = 'block';
+    window.location.assign('src/app/main-display/more-courses/more-courses.component.html');
     this.submitted = true;}
 
 }
