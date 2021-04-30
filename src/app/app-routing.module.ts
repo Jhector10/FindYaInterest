@@ -23,6 +23,7 @@ import { CookingComponent } from './message-board/Cooking/Cooking.component';
 import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
 import { ReadingComponent } from './message-board/Reading/Reading.component';
 import { GamingComponent } from './message-board/Gaming/Gaming.component';
+import { TennisComponent } from './message-board/Tennis/Tennis.component';
 
 const routes: Routes = [
   {path: 'create-account', component: CreateAccountComponent},
@@ -47,7 +48,8 @@ const routes: Routes = [
   {path: 'message-boards/Cooking', component: CookingComponent},
   {path: 'message-boards/SWE-Interview', component: SWEInterviewComponent},
   {path: 'message-boards/Reading', component: ReadingComponent},
-  {path: 'message-boards/Gaming', component: GamingComponent}
+  {path: 'message-boards/Gaming', component: GamingComponent},
+  {path: 'message-boards/Tennis', component: TennisComponent}
 ];
 
 @NgModule({
