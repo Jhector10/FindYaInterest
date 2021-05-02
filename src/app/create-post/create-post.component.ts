@@ -54,6 +54,7 @@ export class CreatePostComponent implements OnInit {
   submitted = false;
 
   onSubmit() { 
+    alert("Post added!");
     document.getElementById('extra').style.display = 'block';
     window.location.assign('src/app/main-display/more-courses/more-courses.component.html');
     this.submitted = true;}
