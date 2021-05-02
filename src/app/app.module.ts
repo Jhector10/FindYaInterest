@@ -30,6 +30,12 @@ import { CS546Component } from './message-board/CS546/CS546.component';
 import { EM578Component } from './message-board/EM578/EM578.component';
 import { MCATComponent } from './message-board/MCAT/MCAT.component';
 import { CFAComponent } from './message-board/CFA/CFA.component';
+import { PaintComponent } from './message-board/Paint/Paint.component';
+import { CookingComponent } from './message-board/Cooking/Cooking.component';
+import { SWEInterviewComponent } from './message-board/SWE-Interview/SWE-Interview.component';
+import { ReadingComponent } from './message-board/Reading/Reading.component';
+import { GamingComponent } from './message-board/Gaming/Gaming.component';
+import { TennisComponent } from './message-board/Tennis/Tennis.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +58,12 @@ import { CFAComponent } from './message-board/CFA/CFA.component';
     EM578Component,
     MCATComponent,
     CFAComponent,
+    PaintComponent,
+    CookingComponent,
+    SWEInterviewComponent,
+    ReadingComponent,
+    GamingComponent,
+    TennisComponent
   ],
   imports: [
     AngularFireModule.initializeApp({
