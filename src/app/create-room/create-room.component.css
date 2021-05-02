@@ -6,60 +6,45 @@ select{
   .specific-room{
     display: none;
   }
-  
-  .course{color: black;}
-  .interest{color: black;}
+
 
   .form-control{
-      margin-top: 10px;
+      margin-bottom: 10px;
   }
+
  a{
      color: black;
  }
-body{
-/*    width: 500px;*/
-    margin: 0 auto;
-    background-color: #F4F4F4;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-}
 
-.card{
-    width: 300px;
-    height: 750px;
+.mainCreateRoomCard{
+	width: 500px;
+    height: auto;
     text-align: center;
 /*    position: fixed;*/
-    margin-left: 50px;
+    margin-left: 300px;
     padding: 80px 32px;
-    background-color: #f4f4f4;
-    align-items: center;
-    border-radius: 15px;
-	margin-top: 1rem;
-}
-
-.mainCreateAccountCard{
-	width: 600px;
-    height: 750px;
-    text-align: center;
-/*    position: fixed;*/
-    margin-left: 81px;
-    padding: 80px 32px;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 2px #aaa;
 /*    align-items: center;*/
     border-radius: 15px;
-	margin-top: 1rem;
+	margin-top: 6rem;
 }
 
-button {
+.submitb  {
+    width: 100px;
+    height: auto;
+    padding: 10px 0px;
     background-color: #FFD84F;
+    border-radius: 5px;
     border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
 }
 
-button:hover {
+
+.submitb:hover {
     background-color: #FFDC7F;
     box-shadow: 0px 0px 2px #aaa;
 }
 
-h1 {
-    font-size: 80px;
-}

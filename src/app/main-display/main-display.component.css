@@ -6,6 +6,12 @@ body {
     margin-left: 488px;
 }
 */
+
+.container {
+    margin: 0 auto; 
+    width: 800px;
+}
+
 a{
     color: inherit;
 }
@@ -79,6 +85,7 @@ a{
     width: 60px;
     font-size: 17px;
     font-weight: normal;
+    margin-bottom: 10px;
 }
 
 .btn-default:hover{
