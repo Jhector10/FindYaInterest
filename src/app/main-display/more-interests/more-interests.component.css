@@ -57,7 +57,6 @@ h1{
     width: 167px;
     height: 48px;
     padding: 14px 0px;
-    margin-left: 30px;
     background-color: #FFD84F;
     border-radius: 5px;
     border: none;
@@ -74,7 +73,6 @@ h1{
     padding-bottom: 11.5px;;
     width: 275px;
     height: 55px; 
-    margin-left: 30px;
     border-radius: 5px;
     font-weight: bolder;
 }
@@ -98,7 +96,7 @@ h1{
 }
 
 .cards{
-    text-align:center;
+    text-align:left;
 }
 
 .interest-card{
@@ -170,7 +168,7 @@ h1{
 }
 
 .search {
-    text-align: center;
+    text-align: left;
     padding: 50px 0px;
 }
 
@@ -178,6 +176,5 @@ input {
     width: 500px;
     padding: 8px;
     border-radius: 4px 0px 0px 4px;
-    border: none;
-    box-shadow: 0px 0px 3px #555 inset;
+    border: 1px solid #e7aa00;
 }
