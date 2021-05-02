@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ForgotLoginPageComponent } from './forgot-login-page/forgot-login-page.component';
-import { CreateRoomComponent } from './create-room/create-room.component';
+import { CreatePostComponent } from './create-post/create-post.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AccountSidebarComponent } from './account-sidebar/account-sidebar.component';
 import { MainDisplayComponent } from './main-display/main-display.component';
@@ -43,7 +43,7 @@ import { TennisComponent } from './message-board/Tennis/Tennis.component';
     CreateAccountComponent,
     LoginPageComponent,
     ForgotLoginPageComponent,
-    CreateRoomComponent,
+    CreatePostComponent,
     AccountSidebarComponent,
     MainDisplayComponent,
     MoreInterestsComponent,
