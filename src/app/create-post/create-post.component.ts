@@ -5,13 +5,13 @@ import 'jquery';
 import * as $ from "jquery";
 
 @Component({
-  selector: 'app-create-room',
-  templateUrl: './create-room.component.html',
-  styleUrls: ['./create-room.component.css', '../main-display/more-courses/more-courses.component.css'], 
+  selector: 'app-create-post',
+  templateUrl: './create-post.component.html',
+  styleUrls: ['./create-post.component.css', '../main-display/more-courses/more-courses.component.css'], 
   encapsulation: ViewEncapsulation.None, 
 })
 
-export class CreateRoomComponent implements OnInit {
+export class CreatePostComponent implements OnInit {
 
   constructor(public router: Router){
   }
