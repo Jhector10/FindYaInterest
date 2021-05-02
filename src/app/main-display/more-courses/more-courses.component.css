@@ -147,3 +147,16 @@ h1{
     color:rgb(32, 123, 243);
     font-weight: bold;
 }
+
+.search {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+input {
+    width: 500px;
+    padding: 8px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    box-shadow: 0px 0px 3px #555 inset;
+}
