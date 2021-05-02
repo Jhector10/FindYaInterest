@@ -11,6 +11,11 @@ a{
     color: inherit
 }
 
+h1{
+    font-size: 80px;
+    color: black;
+}
+
 .card{
     width: 300px;
     height: 750px;
@@ -85,7 +90,6 @@ a{
 
 .cards{
     text-align:center;
-    
 }
 
 .interest-card{
@@ -98,6 +102,11 @@ a{
     margin-right: 30px;
 	margin-bottom: 3rem;
     display: inline-block;
+}
+
+.btn-default:hover{
+    background-color: #e7aa00;
+    color: #fff;
 }
 
 .interest-card .room-name{

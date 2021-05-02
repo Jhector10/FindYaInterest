@@ -9,6 +9,12 @@ body {
 a{
     color: inherit
 }
+
+h1{
+    font-size: 80px;
+    color: black;
+}
+
 .card{
     width: 300px;
     height: 750px;
@@ -98,9 +104,18 @@ a{
     font-size: 32px;
 }
 
+.btn-default:hover{
+    background-color: #e7aa00;
+    color: #fff;
+}
+
 .course-card:hover{
     background-color:#faedc1;
     cursor: pointer;
+}
+
+#extra{
+    display: none;
 }
 
 .logolink{

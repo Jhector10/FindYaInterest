@@ -6,12 +6,19 @@
 	<div class="row">
 		
 	<div class="col-md-6 card">
-	<h1>FYI</h1>
+    <h1><a href="/">FYI</a></h1>
 	<h4>Find Ya Interest</h4>
 
-	<button mat-raised-button type="submit" class="btn " routerLink="/login-page" routerLinkActive="active" style="background-color: white">Login</button>
+	<button mat-raised-button type="submit" class="btn " routerLink="/login-page" routerLinkActive="active" style="width: 235px;
+    padding: 15px 0px;
+    background-color: #FFF;  
+    margin-bottom: 17px;">Login</button>
 		
-	<button mat-raised-button type="submit" class="btn" routerLink="/create-account" routerLinkActive="active" style="margin-top: 1rem;">Create Account</button>
+	<button mat-raised-button type="submit" class="btn" routerLink="/create-account" routerLinkActive="active" style="width: 235px;
+    padding: 15px 0px;
+    background-color: #FFD84F;
+    border-radius: 0px;
+    border: none; border-radius: 4px;">Create Account</button>
 	<br><br>
 
 	<br><br><br>
@@ -96,13 +103,22 @@
                 </a>
 
                 <a routerLink='/message-boards/MA227' routerLinkActive="active">
-                <div class="course-card">
+                <div id="extra" class="course-card">
                     <div class= "chatcontainer"><a class = "chat" href='/chat-room/MA227'><img width="16" height="14" alt="instagram logo" class="logo" src="../assets/chat.png"> chat</a></div>
                     <p class="room-name">MA 227</p>
                     <p>Dr Gavin <br>HW & test prep</p>
                     <div class ="contact"> <a class="logolink" (click)="logoPress('https://discord.com/app')" href="https://discord.com/app"><img width="14" height="14" alt="instagram logo" class="logo" src="../assets/logodiscord.jpg"> @jayhey #9864</a></div>
                 </div>
                 </a>
+
+                <!-- <a routerLink='/message-boards/CS115' routerLinkActive="active">
+                    <div class="course-card">
+                        <div class= "chatcontainer" ><a class = "chat" href='/chat-room/MA227'><img width="16" height="14" alt="instagram logo" class="logo" src="../assets/chat.png"> chat</a></div>
+                        <p class="room-name">CS 115</p>
+                        <p>Prof Martin <br>HW & test prep</p>
+                        <div class ="contact"> <a class="logolink" href="https://discord.com/app"><img width="14" height="14" alt="instagram logo" class="logo" src="../assets/logodiscord.jpg"> @kirsthl #2334</a></div>
+                    </div>
+                    </a> -->
                 
             </div>
         </div>
