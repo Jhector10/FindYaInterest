@@ -1,5 +1,5 @@
 select{
-    border: 1px solid #aaa;
+    border: 10px solid rgb(0, 0, 0);
   }
 
     /* TO DO: figure out why css file is not working with HTML of component */
@@ -28,6 +28,11 @@ select{
 /*    align-items: center;*/
     border-radius: 15px;
 	margin-top: 6rem;
+}
+
+h2 {
+    font-size: 80px;
+    color: black;
 }
 
 .submitb  {

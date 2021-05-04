@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <h2>Post Creation</h2>
+    <h2 style="font-size: 40px">Post Creation</h2>
 <form [formGroup] = "createRoomForm" (ngSubmit)="onSubmit()">
     
         <select id="room-type" class="form-control" formControlName = "roomType" data-toggle="dropdown" required>
@@ -29,25 +29,25 @@
         <option value="interest">Interest</option>
       </select>
       <div class="form-group">
-        <input type="text" class="form-control"  placeholder="Post Title" formControlName="roomname" required>
+        <input type="text" class="form-control"  placeholder="Post Title (ex. CS 545)" formControlName="roomname" required>
     </div>
     <div class="form-group"> 
       <div class="course specific-room" formGroupName="courseRoom" style="display: none;">
-        <input type="text" class="form-control" placeholder="Professor" formControlName="professor" required>
-        <input type="text"  class="form-control" placeholder="Course Number" formControlName="courseNum" required>
+        <input type="text" class="form-control" placeholder="Professor (ex. Prof Vesonder)" formControlName="professor" required>
+        <input type="text"  class="form-control" placeholder="Course Number (ex. 545)" formControlName="courseNum" required>
     </div>
     </div>
     <div class="form-group">
     <div class="interest specific-room" formGroupName="interestRoom" style="display: none;">
-        <input type="text"  class="form-control" placeholder="Interests" formControlName="interests" required>
+        <input type="text"  class="form-control" placeholder="Interests (ex. Reading, Painting, etc.)" formControlName="interests" required>
        </div>
     </div>
     <div class="form-group">
-        <textarea rows="5" cols="33" class="form-control" placeholder="Description" formControlName="description" required>
+        <textarea rows="5" cols="33" class="form-control" placeholder="Description (what should users know?)" formControlName="description" required>
         </textarea>
         </div>
           <div class="form-group">
-            <input type="text"   class="form-control" placeholder="URL" formControlName="url" required>
+            <input type="text"   class="form-control" placeholder="URL for Point of Contact" formControlName="url" required>
 </div>
         <button type="submit" class="submitb" (click)="onSubmit()" routerLink="/" routerLinkActive="active">Create</button>
 </form>
