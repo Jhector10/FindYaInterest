@@ -1,6 +1,6 @@
 # FindYaInterest
 
-You can check out the FindYaInterest Site here: [FindYaInterest Site](https://findyainterest.web.app/)
+You can check out the FindYaInterest Site here: [FindYaInterest Site](https://findyainterest.web.app/) & [Demo](https://stevens.zoom.us/rec/play/zwdK0DxwrhJ-Wvdf6eX3SBWiF1qFYNCbt0CwU68AP924_HkJxwYmADFTrmIBip5YYKPSko4BrhgYfFlL.dKk80u_ANJhYVFbW?startTime=1620211896000)
 
 :mag: Find Ya Interest: a study partner finder 
 ### Team Members:
